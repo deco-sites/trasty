@@ -3,12 +3,314 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/ItWorks.tsx",
-      "name": "<p>It Works!</p>",
-      "count": 1
+      "__resolveType": "site/sections/Hero.tsx",
+      "backgroundImage": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/05b4c9f9-9623-4863-bfce-fac542cacef2/technician-doing-system-analysis-using-tablet-doing-needed-adjustments-1.png"
+      },
+      "backgroundImageDesktop": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/039724a5-4cfe-46fc-a49f-7d99f8222a4d/technic.png"
+      },
+      "logotipo": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/a490855f-baed-4c32-8348-1cfc11cc03a4/Camada_1-(8).png"
+      },
+      "title": "<p style=\"text-align: justify\"><strong><span style=\"color: rgb(255, 255, 255); font-size: 24pt\">Chega de dados</span></strong></p><p style=\"text-align: justify\"><strong><span style=\"color: rgb(255, 255, 255); font-size: 24pt\">errados no seu GA4</span></strong></p>",
+      "textContent": "<p style=\"text-align: justify\"><strong><span style=\"color: rgb(255, 255, 255)\">GTM em servidor simples, rápido e com um valor fixo.</span></strong></p><p style=\"text-align: justify\"><span style=\"color: rgb(255, 255, 255); font-size: 11pt\">Tracking via servidor em poucos cliques e sem surpresa no final do mês. Os grandes players nos escolhem para aumentar o ROI e qualidade dos dados.&nbsp;E o melhor de tudo, uma plataforma 100% Brasileira.</span></p>",
+      "button": {
+        "buttonText": "VER PLANOS",
+        "buttonLink": "/"
+      },
+      "desktopImage": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/6836f43d-e674-4461-a74f-b75ef97ca31d/Frame.png",
+        "marginBottomEffect": true
+      }
     },
     {
-      "__resolveType": "Footer"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/BannerText.tsx",
+        "images": {
+          "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/02ee56c2-9431-4cb0-ac2d-b59af8dd1c0c/graphic.png",
+          "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/122ebacb-7c1a-49df-aa8d-f99e58db5ed3/Frame-1.png",
+          "imageDesktopWidth": 735,
+          "imageDesktopHeight": 573,
+          "imageMobileWidth": 343,
+          "imageMobileHeight": 264
+        },
+        "text": "<p><strong><span style=\"color: rgb(41, 45, 107)\">Entenda o comportamento do usuário sem perder dados e aumente a inteligência de suas tags.&nbsp;</span></strong></p><p></p><p><span style=\"color: rgb(30, 30, 30)\">Em alguns cliques você simplifica a configuração de rastreamento em servidor e pode se preocupar com o que importa: entender o&nbsp;comportamento do seu usuário!&nbsp;</span></p>",
+        "textDesktop": "<p><strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">Entenda o comportamento do usuário sem perder dados e aumente a inteligência de suas tags.&nbsp;</span></strong></p><p></p><p><span style=\"color: rgb(30, 30, 30)\">Em alguns cliques você simplifica a configuração de rastreamento em servidor e pode se preocupar com o que importa: entender o&nbsp;comportamento do seu usuário!&nbsp;</span></p>",
+        "extraTextWithImageDesktop": {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/92fe09ba-8f90-4759-954b-1b1a786b335d/image-1.png",
+          "text": "<p>Alguns de nossos clientes</p><p><strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">Aumentamos em mais de 20</span></strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">%</span></p><p>a confiabilidade na leitura de dados</p>"
+        },
+        "extraTextWithImage": {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/f7c06752-166e-465b-93d2-f94d1808a74e/image-1.png",
+          "text": "<p>Alguns de nossos clientes</p><p><strong><span style=\"color: #292d6b\">Aumentamos em mais de 20</span></strong><span style=\"color: #292d6b\">%</span></p><p>a confiabilidade na leitura de dados</p>"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Partners.tsx",
+        "banners": [
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/9b5fd676-fba2-406d-b749-67c756920806/Camada_1-(2).png",
+            "width": 108,
+            "height": 56
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/a2d771d1-88c2-4838-97b7-cfa55766afea/Camada_1-(3).png",
+            "width": 93,
+            "height": 46
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/04acbace-564e-43b1-bd11-e47475bf2789/Camada_1-(4).png",
+            "width": 135,
+            "height": 50
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/80f4fc39-1f2a-4ccd-b9b2-0c1eab6ce57f/Camada_1-(5).png",
+            "width": 156,
+            "height": 17
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/bd51c99e-2e60-4189-98ac-8d2d1a3bfb29/Camada_1-(6).png",
+            "width": 120,
+            "height": 57
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/c8806b71-cf26-425b-9daf-cfccf00c4316/Camada_1-(7).png",
+            "width": 152,
+            "height": 58
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/900f768c-b4db-4ab7-8b18-a5ab9f01174f/image-2.png",
+            "width": 114,
+            "height": 38
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/3b4a28a0-8bea-43c7-9a0d-2ba974e57c1c/_IOE_1-(9).png",
+            "width": 120,
+            "height": 34
+          }
+        ],
+        "sliderInterval": 5
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Benefits.tsx",
+        "title": "<p style=\"text-align: center\"><strong><span style=\"color: #292d6b; font-size: 18pt\">Benefícios Trasty</span></strong></p>",
+        "subtitle": "<p style=\"text-align: center\"><span style=\"color: #1e1e1e\">Nós cuidamos de toda parte de tech/infraestrutura (Deixe a parte chata conosco e foque nas suas tags).</span></p>",
+        "cards": [
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/857264df-a13d-4455-bea8-6ec0c02f496f/_IOE_1-(3).png",
+            "imageWidth": 44,
+            "imageHeight": 44,
+            "title": "<p><strong><span style=\"color: #ffffff\">Carregador</span></strong></p><p><strong><span style=\"color: #ffffff\">personalizado</span></strong></p>",
+            "textContent": "<p><span style=\"color: #ffffff; font-size: 11pt\">Use seu próprio domínio </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://tags.domain.com\"><span style=\"color: #ffffff; font-size: 11pt\">tags.domain.com</span></a></p>"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/d3fe83a4-98fd-4a27-ac56-8fb316b50163/_IOE_1-(4).png",
+            "imageWidth": 40,
+            "imageHeight": 44,
+            "title": "<p><strong><span style=\"color: #ffffff\">CDN Global</span></strong></p>",
+            "textContent": "<p style=\"text-align: justify\"><span style=\"color: #ffffff; font-size: 11pt\">Acessos por servidores em geo-localização</span></p>"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/8a506aaf-d70f-47cd-913f-de149b591b9e/_IOE_1-(5).png",
+            "title": "<p><strong><span style=\"color: #ffffff\">Logs</span></strong></p>",
+            "textContent": "<p><span style=\"color: #ffffff; font-size: 11pt\">90 dias de retenção</span></p>",
+            "imageWidth": 40,
+            "imageHeight": 42
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/39b37d18-61e2-4fca-b5a3-5366b4b23a32/_IOE_1-(6).png",
+            "imageWidth": 44,
+            "imageHeight": 43,
+            "title": "<p><strong><span style=\"color: #ffffff\">Guardião de cookies</span></strong></p>",
+            "textContent": "<p><span style=\"color: #ffffff; font-size: 11pt\">Cookies que duram 1 ano</span></p>"
+          },
+          {
+            "imageWidth": 44,
+            "imageHeight": 40,
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/24219ae0-28d0-4f8f-92e7-5606092d75e3/_IOE_1-(7).png",
+            "title": "<p><strong><span style=\"color: #ffffff\">HTTP preview header</span></strong></p>",
+            "textContent": "<p><span style=\"color: #ffffff; font-size: 11pt\">Envie Requets de forma simples</span></p>"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/9c5c61cc-a8f8-4ab3-bff7-bfa714514760/_IOE_1-(8).png",
+            "title": "<p><strong><span style=\"color: #ffffff\">Dimensionamento automático</span></strong></p>",
+            "imageWidth": 44,
+            "imageHeight": 44,
+            "textContent": "<p><span style=\"color: #ffffff; font-size: 11pt\">Aumente o tráfego e não se preocupe com infra-estrutura</span></p>"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/CustomText.tsx",
+        "text": "<p><strong><span style=\"color: rgb(41, 45, 107)\">Não fique parado no tempo.</span></strong></p><p><strong><span style=\"color: rgb(41, 45, 107)\">Adapte-se aos bloqueios de iOS,</span></strong></p><p><strong><span style=\"color: rgb(41, 45, 107)\">Firefox e Safari</span></strong></p><p></p><p><span style=\"color: rgb(30, 30, 30); font-size: 11pt\">Oferecemos uma infraestrutura fácil de configurar, recursos que melhoram a qualidade dos dados e soluções que simplificam a configuração do rastreamento server-side.</span></p>",
+        "textList": [
+          "Adapte-se aos bloqueios de iOS, Firefox e Safari",
+          "Garante análises precisas",
+          "Melhore a atribuição de marketing",
+          "Implemente o rastreamento com dados primários",
+          "Garanta melhor personalização ",
+          "Diminua a quebra do GA4 e Plataforma de Ecommerce em até 5%",
+          "Reduza o tempo de carregamento do site"
+        ],
+        "textDesktop": "<p><strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">Não fique parado no tempo.</span></strong></p><p><strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">Adapte-se aos bloqueios de iOS,</span></strong></p><p><strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">Firefox e Safari</span></strong></p><p></p><p><span style=\"color: rgb(30, 30, 30); font-size: 12pt\">Oferecemos uma infraestrutura fácil de configurar, recursos que melhoram a qualidade dos dados e soluções que simplificam a configuração do rastreamento server-side.</span></p>",
+        "imageEffect": true
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/AboutUs.tsx",
+        "title": "Para quem somos?",
+        "list": [
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/f353f1b0-941c-4497-b737-33c79e027755",
+            "title": "Gestores de tráfego",
+            "content": [
+              "Gestores de Tráfego Chega de dados divergentes entre plataformas, com a Trasty.io você eleva a inteligência das atribuições e otimiza de forma segura suas campanha"
+            ]
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/eda2a221-879c-41f3-a7f7-032d93be50a9",
+            "title": "E-commerce",
+            "content": [
+              "Elimine a quebra de dados entre gerenciadores e Analytics",
+              "Diminua a quebra de receita atribuída entre  e-com e GA4",
+              "Melhora o carregamento do site, pois as requisições estão em API"
+            ]
+          },
+          {
+            "title": "Agências",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/1e10c48d-3fbd-4bd4-9dad-68acd913f944",
+            "content": [
+              "Confiança em dados para seus clientes. ",
+              "Diferenciação no mercado de agências, uma vez que você executa atribuições avançadas de formas simples",
+              "Aumento de LTV de seus clientes ",
+              "Equipara-se com as maiores do mercado global "
+            ]
+          }
+        ],
+        "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/1a161732-2210-46a6-a88d-59e537c0730e",
+        "backgroundImageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/279d5a63-4389-44a9-9fe1-b795438848c5"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Prices.tsx",
+        "title": {
+          "subtitle": "Sem surpresas, pague fixo e em Real",
+          "title": "Conheça nossos preços e planos"
+        },
+        "cards": [
+          {
+            "itemsList": [
+              "CDN Global",
+              "Logs (60 dias de retenção)",
+              "HTTP preview header",
+              "Suporte por e-mail"
+            ],
+            "title": "TRASTY FREE",
+            "subtitle": "10.000 Mil Request",
+            "price": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">Forever </span><span style=\"color: rgb(41, 45, 107); font-size: 15pt\">FREE</span></strong></p>",
+            "buttonText": "CONTRATAR"
+          },
+          {
+            "itemsList": [
+              "CDN Global",
+              "Logs (90 dias de retenção)",
+              "HTTP preview header",
+              "Guardião de cookies (Cookies que duram 1 ano)",
+              "Carregador personalizado (Use seu próprio domínio)",
+              "Suporte por e-mail"
+            ],
+            "title": "TRASTY SIMPLE",
+            "subtitle": "50.000 Mil Request",
+            "price": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">R$ 69,90 Mensal</span></strong></p>",
+            "buttonText": "CONTRATAR",
+            "buttonLink": "/"
+          },
+          {
+            "itemsList": [
+              "CDN Global",
+              "Logs (90 dias de retenção)",
+              "HTTP preview header ",
+              "Guardião de cookies (Cookies que duram 1 ano)",
+              "Carregador personalizado (Use seu próprio domínio)",
+              "Suporte por chat",
+              "Dimensionamento automático (Aumente o tráfego e não se preocupe com infra-estrutura)"
+            ],
+            "title": "TRASTY PREMIUM",
+            "subtitle": "500.000 Mil Request",
+            "price": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">R$ 149,90 Mensal</span></strong></p>",
+            "buttonText": "CONTRATAR",
+            "buttonLink": "/",
+            "highlight": true
+          },
+          {
+            "itemsList": [
+              "CDN Global",
+              "Logs (90 dias de retenção)",
+              "HTTP preview header ",
+              "Guardião de cookies (Cookies que duram 1 ano)",
+              "Carregador personalizado (Use seu próprio domínio)",
+              "Suporte por chat",
+              "Suporte por ligação",
+              "Dimensionamento automático (Aumente o tráfego e não se preocupe com infra-estrutura)"
+            ],
+            "title": "TRASTY PRO",
+            "subtitle": "3.000.000 Milhões Request",
+            "price": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">R$ 399,00 Mensal</span></strong></p>",
+            "buttonText": "CONTRATAR",
+            "buttonLink": "/"
+          },
+          {
+            "itemsList": [
+              "Agende com um de nossos especialistas para obter o seu pacote personalizado "
+            ],
+            "title": "TRASTY PERSONALITE",
+            "subtitle": "Acima de 3 milhões de request",
+            "price": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">-</span></strong></p>",
+            "buttonText": "AGENDAR",
+            "buttonLink": "/"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Accordion.tsx",
+        "questions": [
+          {
+            "answer": "Sim, o fato de rodar no mesmo domínio do seu site o cookie não é caracterizado como terceiro e tem uma duração maior.",
+            "question": "1. Roda em contexto de 1st Party Data?"
+          },
+          {
+            "question": "2. O pagamento é fixo?",
+            "answer": "Sim, o pagamento é feito de forma fixa e previsível em real."
+          },
+          {
+            "question": "3. Em quanto tempo o GTM server está disponível?",
+            "answer": "Em até 15 minutos você tem o servidor para enviar testes."
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/4943c795-023c-4c87-b485-4c0acac919ac",
+      "alt": "Logo"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

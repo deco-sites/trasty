@@ -261,7 +261,7 @@ function Section({
     [
       "--font-family",
       font?.family ||
-      "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+      "Objective, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     ],
   ]
     .map(([name, value]) => ({ name, value }));
@@ -427,9 +427,8 @@ const ButtonSizesPreview = () => {
     <div className="flex flex-row gap-2 items-center">
       {Object.entries(buttonSizes).map(([sizeCode, sizeText]) => (
         <button
-          className={`btn capitalize btn-${sizeCode} ${
-            style ? `btn-${style}` : ""
-          }`}
+          className={`btn capitalize btn-${sizeCode} ${style ? `btn-${style}` : ""
+            }`}
         >
           {sizeText}
         </button>
@@ -457,9 +456,8 @@ const ButtonColorsPreview = () => {
     <div className="flex flex-row gap-2">
       {buttonColorsClasses.map(({ class: colorClass, label }) => (
         <button
-          className={`btn btn-xs md:btn-sm capitalize ${colorClass} ${type} ${
-            type === "btn-ghost" ? "text-[initial]" : ""
-          }`}
+          className={`btn btn-xs md:btn-sm capitalize ${colorClass} ${type} ${type === "btn-ghost" ? "text-[initial]" : ""
+            }`}
         >
           {label}
         </button>
@@ -544,16 +542,14 @@ const PreviewContainer = (
       display: none;
     }
     #${checkboxId}:checked ~ .hide-label {
-      background-color: ${
-    mode === "dark"
+      background-color: ${mode === "dark"
       ? "var(--admin-hover-bg-color)"
       : "var(--admin-text-color-light)"
-  };
-      color: ${
-    mode === "dark"
+    };
+      color: ${mode === "dark"
       ? "var(--admin-text-color-light)"
       : "var(--admin-hover-bg-color)"
-  };
+    };
     }
   `;
 
@@ -583,9 +579,8 @@ const PreviewContainer = (
             </label>
             <div
               id={codeBlockId}
-              className={`mt-4 mb-2 text-xs md:text-sm ${
-                mode === "dark" ? "bg-slate-800" : "bg-slate-100"
-              }`}
+              className={`mt-4 mb-2 text-xs md:text-sm ${mode === "dark" ? "bg-slate-800" : "bg-slate-100"
+                }`}
             >
               <pre className="p-4 overflow-x-auto">{codeString}</pre>
             </div>
