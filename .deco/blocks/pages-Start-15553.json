@@ -5,10 +5,10 @@
     {
       "__resolveType": "site/sections/Hero.tsx",
       "backgroundImage": {
-        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/05b4c9f9-9623-4863-bfce-fac542cacef2/technician-doing-system-analysis-using-tablet-doing-needed-adjustments-1.png"
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/5da8d6fb-2c4c-47dd-b453-1bd226aaf72b/tec-mob.webp"
       },
       "backgroundImageDesktop": {
-        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/039724a5-4cfe-46fc-a49f-7d99f8222a4d/technic.png"
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/1d61aa8c-9ca9-4c99-8b80-2c464c10da0e/tec-desk.webp"
       },
       "logotipo": {
         "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/a490855f-baed-4c32-8348-1cfc11cc03a4/Camada_1-(8).png"
