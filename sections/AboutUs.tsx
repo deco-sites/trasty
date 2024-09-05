@@ -57,7 +57,7 @@ function AboutUs({ title, backgroundImage, backgroundImageMobile, list }: Props)
                                 <span class="text-sm lg:text-base text-base-300 font-bold">{item?.title}</span>
                                 <ul class="list-disc pl-4">
                                     {item?.content?.map((text) => (
-                                        <li class="marker:text-base">
+                                        <li class="marker:text-white">
                                             <span class="text-xs lg:text-sm text-base-300 font-light">{text}</span>
                                         </li>
                                     ))}
