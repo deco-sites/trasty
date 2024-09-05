@@ -57,7 +57,7 @@ function Hero({ backgroundImage, backgroundImageDesktop, logotipo, desktopImage,
 
     return (
         <div
-            className="hero h-[461px] lg:h-[806px] lg:flex lg:justify-center"
+            className="hero min-h-[461px] lg:h-[806px] lg:flex lg:justify-center"
             style={{
                 backgroundImage: `url(${backgroundImageUrl})`,
             }}>

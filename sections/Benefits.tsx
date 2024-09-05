@@ -68,7 +68,7 @@ function Benefits({ title, subtitle, cards, buttonText = "QUERO CONTRATAR", butt
                         </li>
                     ))}
                 </ul>
-                <a href={buttonLink} class="py-3 mx-auto text-black font-bold text-sm mt-6 bg-[#FCCC6B] rounded-[10px] max-w-[222px] flex items-center justify-center">{buttonText}</a>
+                <a href={buttonLink} class="btn py-3 mx-auto text-black font-bold text-sm mt-6 bg-[#FCCC6B] rounded-[10px] max-w-[222px] flex items-center justify-center">{buttonText}</a>
             </div>
         </div>
     )

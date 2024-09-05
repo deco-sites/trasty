@@ -8,7 +8,7 @@ interface Props {
 
 function Footer({ image, alt }: Props) {
   return (
-    <div class="bg-[#292D6B] w-full flex items-center justify-center py-6">
+    <div class="bg-secondary w-full flex items-center justify-center py-6">
       {image &&
         <Image
           loading="lazy"

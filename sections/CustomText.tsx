@@ -30,7 +30,7 @@ function CustomText({ imageEffect = false, text, textDesktop, textList }: Props)
 
                 <ul class="flex flex-col list-disc px-8 mt-4">
                     {textList?.map((text) => (
-                        <li><span class="text-sm text-[#1E1E1E]">{text}</span></li>
+                        <li><span class="text-sm text-primary">{text}</span></li>
                     ))}
                 </ul>
             </div>
