@@ -36,11 +36,11 @@ function Prices({ title, cards }: Props) {
 
     return (
         <div id={id} class="bg-[#F5F5F5] py-6 lg:pb-20 lg:pt-[72px]">
-            <div class="flex flex-col gap-2 mb-8 lg:mb-16">
+            <div id="prices" class="flex flex-col gap-2 mb-8 lg:mb-16">
                 <span class="font-bold text-secondary text-base lg:text-2xl text-center">{title?.title}</span>
                 <span class="text-primary text-sm lg:text-base text-center">{title?.subtitle}</span>
             </div>
-            <div>
+            <div class="px-4 2xl:px-0">
                 <Slider class="carousel carousel-center sm:carousel-end gap-4 lg:gap-8 2xl:justify-center sm:gap-[104px] w-full items-center h-[630px]">
                     {cards?.map((card, index) => (
                         <Slider.Item

@@ -81,7 +81,7 @@ function Hero({ backgroundImage, backgroundImageDesktop, logotipo, desktopImage,
                     }}>
                     </p>
                     }
-                    <button className="btn bg-[#FCCC6B] border-none font-bold mt-4 rounded-[10px] text-center block mx-auto w-full lg:max-w-[164px] lg:mx-0"><a href={button?.buttonLink}>{button?.buttonText}</a></button>
+                    <a href={button?.buttonLink}><button className="btn bg-[#FCCC6B] border-none font-bold mt-4 rounded-[10px] text-center block mx-auto w-full lg:max-w-[164px] lg:mx-0">{button?.buttonText}</button></a>
                 </div>
             </div>
             {desktopImage?.image && <Image
