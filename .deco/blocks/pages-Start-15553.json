@@ -205,87 +205,84 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Prices.tsx",
-        "title": {
-          "subtitle": "Sem surpresas, pague fixo e em Real",
-          "title": "Conheça nossos preços e planos"
+      "__resolveType": "site/sections/Prices.tsx",
+      "title": {
+        "subtitle": "Sem surpresas, pague fixo e em Real",
+        "title": "Conheça nossos preços e planos"
+      },
+      "cards": [
+        {
+          "itemsList": [
+            "CDN Global",
+            "Logs (60 dias de retenção)",
+            "HTTP preview header",
+            "Suporte por e-mail"
+          ],
+          "title": "TRASTY FREE",
+          "subtitle": "10.000 Mil Request",
+          "price": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">Forever </span><span style=\"color: rgb(41, 45, 107); font-size: 15pt\">FREE</span></strong></p>",
+          "buttonText": "CONTRATAR"
         },
-        "cards": [
-          {
-            "itemsList": [
-              "CDN Global",
-              "Logs (60 dias de retenção)",
-              "HTTP preview header",
-              "Suporte por e-mail"
-            ],
-            "title": "TRASTY FREE",
-            "subtitle": "10.000 Mil Request",
-            "price": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">Forever </span><span style=\"color: rgb(41, 45, 107); font-size: 15pt\">FREE</span></strong></p>",
-            "buttonText": "CONTRATAR"
-          },
-          {
-            "itemsList": [
-              "CDN Global",
-              "Logs (90 dias de retenção)",
-              "HTTP preview header",
-              "Guardião de cookies (Cookies que duram 1 ano)",
-              "Carregador personalizado (Use seu próprio domínio)",
-              "Suporte por e-mail"
-            ],
-            "title": "TRASTY SIMPLE",
-            "subtitle": "50.000 Mil Request",
-            "price": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">R$ 69,90 Mensal</span></strong></p>",
-            "buttonText": "CONTRATAR",
-            "buttonLink": "/"
-          },
-          {
-            "itemsList": [
-              "CDN Global",
-              "Logs (90 dias de retenção)",
-              "HTTP preview header ",
-              "Guardião de cookies (Cookies que duram 1 ano)",
-              "Carregador personalizado (Use seu próprio domínio)",
-              "Suporte por chat",
-              "Dimensionamento automático (Aumente o tráfego e não se preocupe com infra-estrutura)"
-            ],
-            "title": "TRASTY PREMIUM",
-            "subtitle": "500.000 Mil Request",
-            "price": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">R$ 149,90 Mensal</span></strong></p>",
-            "buttonText": "CONTRATAR",
-            "buttonLink": "/",
-            "highlight": true
-          },
-          {
-            "itemsList": [
-              "CDN Global",
-              "Logs (90 dias de retenção)",
-              "HTTP preview header ",
-              "Guardião de cookies (Cookies que duram 1 ano)",
-              "Carregador personalizado (Use seu próprio domínio)",
-              "Suporte por chat",
-              "Suporte por ligação",
-              "Dimensionamento automático (Aumente o tráfego e não se preocupe com infra-estrutura)"
-            ],
-            "title": "TRASTY PRO",
-            "subtitle": "3.000.000 Milhões Request",
-            "price": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">R$ 399,00 Mensal</span></strong></p>",
-            "buttonText": "CONTRATAR",
-            "buttonLink": "/"
-          },
-          {
-            "itemsList": [
-              "Agende com um de nossos especialistas para obter o seu pacote personalizado "
-            ],
-            "title": "TRASTY PERSONALITE",
-            "subtitle": "Acima de 3 milhões de request",
-            "price": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">-</span></strong></p>",
-            "buttonText": "AGENDAR",
-            "buttonLink": "/"
-          }
-        ]
-      }
+        {
+          "itemsList": [
+            "CDN Global",
+            "Logs (90 dias de retenção)",
+            "HTTP preview header",
+            "Guardião de cookies (Cookies que duram 1 ano)",
+            "Carregador personalizado (Use seu próprio domínio)",
+            "Suporte por e-mail"
+          ],
+          "title": "TRASTY SIMPLE",
+          "subtitle": "50.000 Mil Request",
+          "price": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">R$ 69,90 Mensal</span></strong></p>",
+          "buttonText": "CONTRATAR",
+          "buttonLink": "/"
+        },
+        {
+          "itemsList": [
+            "CDN Global",
+            "Logs (90 dias de retenção)",
+            "HTTP preview header ",
+            "Guardião de cookies (Cookies que duram 1 ano)",
+            "Carregador personalizado (Use seu próprio domínio)",
+            "Suporte por chat",
+            "Dimensionamento automático (Aumente o tráfego e não se preocupe com infra-estrutura)"
+          ],
+          "title": "TRASTY PREMIUM",
+          "subtitle": "500.000 Mil Request",
+          "price": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">R$ 149,90 Mensal</span></strong></p>",
+          "buttonText": "CONTRATAR",
+          "buttonLink": "/",
+          "highlight": true
+        },
+        {
+          "itemsList": [
+            "CDN Global",
+            "Logs (90 dias de retenção)",
+            "HTTP preview header ",
+            "Guardião de cookies (Cookies que duram 1 ano)",
+            "Carregador personalizado (Use seu próprio domínio)",
+            "Suporte por chat",
+            "Suporte por ligação",
+            "Dimensionamento automático (Aumente o tráfego e não se preocupe com infra-estrutura)"
+          ],
+          "title": "TRASTY PRO",
+          "subtitle": "3.000.000 Milhões Request",
+          "price": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">R$ 399,00 Mensal</span></strong></p>",
+          "buttonText": "CONTRATAR",
+          "buttonLink": "/"
+        },
+        {
+          "itemsList": [
+            "Agende com um de nossos especialistas para obter o seu pacote personalizado "
+          ],
+          "title": "TRASTY PERSONALITE",
+          "subtitle": "Acima de 3 milhões de request",
+          "price": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">-</span></strong></p>",
+          "buttonText": "AGENDAR",
+          "buttonLink": "/"
+        }
+      ]
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
