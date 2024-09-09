@@ -146,7 +146,8 @@
             "imageHeight": 44,
             "textContent": "<p><span style=\"color: #ffffff; font-size: 11pt\">Aumente o tráfego e não se preocupe com infra-estrutura</span></p>"
           }
-        ]
+        ],
+        "buttonLink": "/#prices"
       }
     },
     {
