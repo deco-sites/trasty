@@ -98,57 +98,54 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Benefits.tsx",
-        "title": "<p style=\"text-align: center\"><strong><span style=\"color: #292d6b; font-size: 18pt\">Benefícios Trasty</span></strong></p>",
-        "subtitle": "<p style=\"text-align: center\"><span style=\"color: #1e1e1e\">Nós cuidamos de toda parte de tech/infraestrutura (Deixe a parte chata conosco e foque nas suas tags).</span></p>",
-        "cards": [
-          {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/857264df-a13d-4455-bea8-6ec0c02f496f/_IOE_1-(3).png",
-            "imageWidth": 44,
-            "imageHeight": 44,
-            "title": "<p><strong><span style=\"color: #ffffff\">Carregador</span></strong></p><p><strong><span style=\"color: #ffffff\">personalizado</span></strong></p>",
-            "textContent": "<p><span style=\"color: #ffffff; font-size: 11pt\">Use seu próprio domínio </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://tags.domain.com\"><span style=\"color: #ffffff; font-size: 11pt\">tags.domain.com</span></a></p>"
-          },
-          {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/d3fe83a4-98fd-4a27-ac56-8fb316b50163/_IOE_1-(4).png",
-            "imageWidth": 40,
-            "imageHeight": 44,
-            "title": "<p><strong><span style=\"color: #ffffff\">CDN Global</span></strong></p>",
-            "textContent": "<p style=\"text-align: justify\"><span style=\"color: #ffffff; font-size: 11pt\">Acessos por servidores em geo-localização</span></p>"
-          },
-          {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/8a506aaf-d70f-47cd-913f-de149b591b9e/_IOE_1-(5).png",
-            "title": "<p><strong><span style=\"color: #ffffff\">Logs</span></strong></p>",
-            "textContent": "<p><span style=\"color: #ffffff; font-size: 11pt\">90 dias de retenção</span></p>",
-            "imageWidth": 40,
-            "imageHeight": 42
-          },
-          {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/39b37d18-61e2-4fca-b5a3-5366b4b23a32/_IOE_1-(6).png",
-            "imageWidth": 44,
-            "imageHeight": 43,
-            "title": "<p><strong><span style=\"color: #ffffff\">Guardião de cookies</span></strong></p>",
-            "textContent": "<p><span style=\"color: #ffffff; font-size: 11pt\">Cookies que duram 1 ano</span></p>"
-          },
-          {
-            "imageWidth": 44,
-            "imageHeight": 40,
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/24219ae0-28d0-4f8f-92e7-5606092d75e3/_IOE_1-(7).png",
-            "title": "<p><strong><span style=\"color: #ffffff\">HTTP preview header</span></strong></p>",
-            "textContent": "<p><span style=\"color: #ffffff; font-size: 11pt\">Envie Requets de forma simples</span></p>"
-          },
-          {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/9c5c61cc-a8f8-4ab3-bff7-bfa714514760/_IOE_1-(8).png",
-            "title": "<p><strong><span style=\"color: #ffffff\">Dimensionamento automático</span></strong></p>",
-            "imageWidth": 44,
-            "imageHeight": 44,
-            "textContent": "<p><span style=\"color: #ffffff; font-size: 11pt\">Aumente o tráfego e não se preocupe com infra-estrutura</span></p>"
-          }
-        ],
-        "buttonLink": "/#prices"
-      }
+      "__resolveType": "site/sections/Benefits.tsx",
+      "title": "<p style=\"text-align: center\"><strong><span style=\"color: #292d6b; font-size: 18pt\">Benefícios Trasty</span></strong></p>",
+      "subtitle": "<p style=\"text-align: center\"><span style=\"color: #1e1e1e\">Nós cuidamos de toda parte de tech/infraestrutura (Deixe a parte chata conosco e foque nas suas tags).</span></p>",
+      "cards": [
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/857264df-a13d-4455-bea8-6ec0c02f496f/_IOE_1-(3).png",
+          "imageWidth": 44,
+          "imageHeight": 44,
+          "title": "<p><strong><span style=\"color: #ffffff\">Carregador</span></strong></p><p><strong><span style=\"color: #ffffff\">personalizado</span></strong></p>",
+          "textContent": "<p><span style=\"color: #ffffff; font-size: 11pt\">Use seu próprio domínio </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://tags.domain.com\"><span style=\"color: #ffffff; font-size: 11pt\">tags.domain.com</span></a></p>"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/d3fe83a4-98fd-4a27-ac56-8fb316b50163/_IOE_1-(4).png",
+          "imageWidth": 40,
+          "imageHeight": 44,
+          "title": "<p><strong><span style=\"color: #ffffff\">CDN Global</span></strong></p>",
+          "textContent": "<p style=\"text-align: justify\"><span style=\"color: #ffffff; font-size: 11pt\">Acessos por servidores em geo-localização</span></p>"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/8a506aaf-d70f-47cd-913f-de149b591b9e/_IOE_1-(5).png",
+          "title": "<p><strong><span style=\"color: #ffffff\">Logs</span></strong></p>",
+          "textContent": "<p><span style=\"color: #ffffff; font-size: 11pt\">90 dias de retenção</span></p>",
+          "imageWidth": 40,
+          "imageHeight": 42
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/39b37d18-61e2-4fca-b5a3-5366b4b23a32/_IOE_1-(6).png",
+          "imageWidth": 44,
+          "imageHeight": 43,
+          "title": "<p><strong><span style=\"color: #ffffff\">Guardião de cookies</span></strong></p>",
+          "textContent": "<p><span style=\"color: #ffffff; font-size: 11pt\">Cookies que duram 1 ano</span></p>"
+        },
+        {
+          "imageWidth": 44,
+          "imageHeight": 40,
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/24219ae0-28d0-4f8f-92e7-5606092d75e3/_IOE_1-(7).png",
+          "title": "<p><strong><span style=\"color: #ffffff\">HTTP preview header</span></strong></p>",
+          "textContent": "<p><span style=\"color: #ffffff; font-size: 11pt\">Envie Requets de forma simples</span></p>"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/9c5c61cc-a8f8-4ab3-bff7-bfa714514760/_IOE_1-(8).png",
+          "title": "<p><strong><span style=\"color: #ffffff\">Dimensionamento automático</span></strong></p>",
+          "imageWidth": 44,
+          "imageHeight": 44,
+          "textContent": "<p><span style=\"color: #ffffff; font-size: 11pt\">Aumente o tráfego e não se preocupe com infra-estrutura</span></p>"
+        }
+      ],
+      "buttonLink": "/#prices"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
