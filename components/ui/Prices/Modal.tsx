@@ -32,6 +32,7 @@ export default function Modal({ isOpen, onClose, cardTitle }: ModalProps) {
             site: site
         };
 
+
         // @ts-ignore
         window.emailjs.send("service_jh34wnu", "template_nscdxwb", templateParams, "tmKMu4QTTuGaOohNF")
             .then(() => {
@@ -42,6 +43,17 @@ export default function Modal({ isOpen, onClose, cardTitle }: ModalProps) {
                 setMessage('Enviado com sucesso!');
                 setShowMessageModal(true);
                 autoCloseModal();
+
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                    'card_title': cardTitle,
+                    'name': name,
+                    'email': email,
+                    'phone': phone,
+                    'site': site,
+                    'event': 'EnvioForm'
+                });
+
             }, () => {
                 setMessage('Erro ao enviar. Tente novamente.');
                 setShowMessageModal(true);
