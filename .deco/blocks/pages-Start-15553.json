@@ -25,77 +25,71 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/BannerText.tsx",
-        "images": {
-          "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/02ee56c2-9431-4cb0-ac2d-b59af8dd1c0c/graphic.png",
-          "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/122ebacb-7c1a-49df-aa8d-f99e58db5ed3/Frame-1.png",
-          "imageDesktopWidth": 735,
-          "imageDesktopHeight": 573,
-          "imageMobileWidth": 343,
-          "imageMobileHeight": 264
-        },
-        "text": "<p><strong><span style=\"color: rgb(41, 45, 107)\">Entenda o comportamento do usuário sem perder dados e aumente a inteligência de suas tags.&nbsp;</span></strong></p><p></p><p><span style=\"color: rgb(30, 30, 30)\">Em alguns cliques você simplifica a configuração de rastreamento em servidor e pode se preocupar com o que importa: entender o&nbsp;comportamento do seu usuário!&nbsp;</span></p>",
-        "textDesktop": "<p><strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">Entenda o comportamento do usuário sem perder dados e aumente a inteligência de suas tags.&nbsp;</span></strong></p><p></p><p><span style=\"color: rgb(30, 30, 30)\">Em alguns cliques você simplifica a configuração de rastreamento em servidor e pode se preocupar com o que importa: entender o&nbsp;comportamento do seu usuário!&nbsp;</span></p>",
-        "extraTextWithImageDesktop": {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/92fe09ba-8f90-4759-954b-1b1a786b335d/image-1.png",
-          "text": "<p>Alguns de nossos clientes</p><p><strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">Aumentamos em mais de 20</span></strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">%</span></p><p>a confiabilidade na leitura de dados</p>"
-        },
-        "extraTextWithImage": {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/f7c06752-166e-465b-93d2-f94d1808a74e/image-1.png",
-          "text": "<p>Alguns de nossos clientes</p><p><strong><span style=\"color: #292d6b\">Aumentamos em mais de 20</span></strong><span style=\"color: #292d6b\">%</span></p><p>a confiabilidade na leitura de dados</p>"
-        }
+      "__resolveType": "site/sections/BannerText.tsx",
+      "images": {
+        "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/02ee56c2-9431-4cb0-ac2d-b59af8dd1c0c/graphic.png",
+        "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/122ebacb-7c1a-49df-aa8d-f99e58db5ed3/Frame-1.png",
+        "imageDesktopWidth": 735,
+        "imageDesktopHeight": 573,
+        "imageMobileWidth": 343,
+        "imageMobileHeight": 264
+      },
+      "text": "<p><strong><span style=\"color: rgb(41, 45, 107)\">Entenda o comportamento do usuário sem perder dados e aumente a inteligência de suas tags.&nbsp;</span></strong></p><p></p><p><span style=\"color: rgb(30, 30, 30)\">Em alguns cliques você simplifica a configuração de rastreamento em servidor e pode se preocupar com o que importa: entender o&nbsp;comportamento do seu usuário!&nbsp;</span></p>",
+      "textDesktop": "<p><strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">Entenda o comportamento do usuário sem perder dados e aumente a inteligência de suas tags.&nbsp;</span></strong></p><p></p><p><span style=\"color: rgb(30, 30, 30)\">Em alguns cliques você simplifica a configuração de rastreamento em servidor e pode se preocupar com o que importa: entender o&nbsp;comportamento do seu usuário!&nbsp;</span></p>",
+      "extraTextWithImageDesktop": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/92fe09ba-8f90-4759-954b-1b1a786b335d/image-1.png",
+        "text": "<p>Alguns de nossos clientes</p><p><strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">Aumentamos em mais de 20</span></strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">%</span></p><p>a confiabilidade na leitura de dados</p>"
+      },
+      "extraTextWithImage": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/f7c06752-166e-465b-93d2-f94d1808a74e/image-1.png",
+        "text": "<p>Alguns de nossos clientes</p><p><strong><span style=\"color: #292d6b\">Aumentamos em mais de 20</span></strong><span style=\"color: #292d6b\">%</span></p><p>a confiabilidade na leitura de dados</p>"
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Partners.tsx",
-        "banners": [
-          {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/9b5fd676-fba2-406d-b749-67c756920806/Camada_1-(2).png",
-            "width": 108,
-            "height": 56
-          },
-          {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/a2d771d1-88c2-4838-97b7-cfa55766afea/Camada_1-(3).png",
-            "width": 93,
-            "height": 46
-          },
-          {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/04acbace-564e-43b1-bd11-e47475bf2789/Camada_1-(4).png",
-            "width": 135,
-            "height": 50
-          },
-          {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/80f4fc39-1f2a-4ccd-b9b2-0c1eab6ce57f/Camada_1-(5).png",
-            "width": 156,
-            "height": 17
-          },
-          {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/bd51c99e-2e60-4189-98ac-8d2d1a3bfb29/Camada_1-(6).png",
-            "width": 120,
-            "height": 57
-          },
-          {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/c8806b71-cf26-425b-9daf-cfccf00c4316/Camada_1-(7).png",
-            "width": 152,
-            "height": 58
-          },
-          {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/900f768c-b4db-4ab7-8b18-a5ab9f01174f/image-2.png",
-            "width": 114,
-            "height": 38
-          },
-          {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/3b4a28a0-8bea-43c7-9a0d-2ba974e57c1c/_IOE_1-(9).png",
-            "width": 120,
-            "height": 34
-          }
-        ],
-        "sliderInterval": 5
-      }
+      "__resolveType": "site/sections/Partners.tsx",
+      "banners": [
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/9b5fd676-fba2-406d-b749-67c756920806/Camada_1-(2).png",
+          "width": 108,
+          "height": 56
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/a2d771d1-88c2-4838-97b7-cfa55766afea/Camada_1-(3).png",
+          "width": 93,
+          "height": 46
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/04acbace-564e-43b1-bd11-e47475bf2789/Camada_1-(4).png",
+          "width": 135,
+          "height": 50
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/80f4fc39-1f2a-4ccd-b9b2-0c1eab6ce57f/Camada_1-(5).png",
+          "width": 156,
+          "height": 17
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/bd51c99e-2e60-4189-98ac-8d2d1a3bfb29/Camada_1-(6).png",
+          "width": 120,
+          "height": 57
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/c8806b71-cf26-425b-9daf-cfccf00c4316/Camada_1-(7).png",
+          "width": 152,
+          "height": 58
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/900f768c-b4db-4ab7-8b18-a5ab9f01174f/image-2.png",
+          "width": 114,
+          "height": 38
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/trasty/3b4a28a0-8bea-43c7-9a0d-2ba974e57c1c/_IOE_1-(9).png",
+          "width": 120,
+          "height": 34
+        }
+      ],
+      "sliderInterval": 5
     },
     {
       "__resolveType": "site/sections/Benefits.tsx",
@@ -148,59 +142,53 @@
       "buttonLink": "/#prices"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/CustomText.tsx",
-        "text": "<p><strong><span style=\"color: rgb(41, 45, 107)\">Não fique parado no tempo.</span></strong></p><p><strong><span style=\"color: rgb(41, 45, 107)\">Adapte-se aos bloqueios de iOS,</span></strong></p><p><strong><span style=\"color: rgb(41, 45, 107)\">Firefox e Safari</span></strong></p><p></p><p><span style=\"color: rgb(30, 30, 30); font-size: 11pt\">Oferecemos uma infraestrutura fácil de configurar, recursos que melhoram a qualidade dos dados e soluções que simplificam a configuração do rastreamento server-side.</span></p>",
-        "textList": [
-          "Adapte-se aos bloqueios de iOS, Firefox e Safari",
-          "Garante análises precisas",
-          "Melhore a atribuição de marketing",
-          "Implemente o rastreamento com dados primários",
-          "Garanta melhor personalização ",
-          "Diminua a quebra do GA4 e Plataforma de Ecommerce em até 5%",
-          "Reduza o tempo de carregamento do site"
-        ],
-        "textDesktop": "<p><strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">Não fique parado no tempo.</span></strong></p><p><strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">Adapte-se aos bloqueios de iOS,</span></strong></p><p><strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">Firefox e Safari</span></strong></p><p></p><p><span style=\"color: rgb(30, 30, 30); font-size: 12pt\">Oferecemos uma infraestrutura fácil de configurar, recursos que melhoram a qualidade dos dados e soluções que simplificam a configuração do rastreamento server-side.</span></p>",
-        "imageEffect": true
-      }
+      "__resolveType": "site/sections/CustomText.tsx",
+      "text": "<p><strong><span style=\"color: rgb(41, 45, 107)\">Não fique parado no tempo.</span></strong></p><p><strong><span style=\"color: rgb(41, 45, 107)\">Adapte-se aos bloqueios de iOS,</span></strong></p><p><strong><span style=\"color: rgb(41, 45, 107)\">Firefox e Safari</span></strong></p><p></p><p><span style=\"color: rgb(30, 30, 30); font-size: 11pt\">Oferecemos uma infraestrutura fácil de configurar, recursos que melhoram a qualidade dos dados e soluções que simplificam a configuração do rastreamento server-side.</span></p>",
+      "textList": [
+        "Adapte-se aos bloqueios de iOS, Firefox e Safari",
+        "Garante análises precisas",
+        "Melhore a atribuição de marketing",
+        "Implemente o rastreamento com dados primários",
+        "Garanta melhor personalização ",
+        "Diminua a quebra do GA4 e Plataforma de Ecommerce em até 5%",
+        "Reduza o tempo de carregamento do site"
+      ],
+      "textDesktop": "<p><strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">Não fique parado no tempo.</span></strong></p><p><strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">Adapte-se aos bloqueios de iOS,</span></strong></p><p><strong><span style=\"color: rgb(41, 45, 107); font-size: 18pt\">Firefox e Safari</span></strong></p><p></p><p><span style=\"color: rgb(30, 30, 30); font-size: 12pt\">Oferecemos uma infraestrutura fácil de configurar, recursos que melhoram a qualidade dos dados e soluções que simplificam a configuração do rastreamento server-side.</span></p>",
+      "imageEffect": true
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/AboutUs.tsx",
-        "title": "Para quem somos?",
-        "list": [
-          {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/f353f1b0-941c-4497-b737-33c79e027755",
-            "title": "Gestores de tráfego",
-            "content": [
-              "Chega de dados divergentes entre plataformas, com a Trasty.io você eleva a inteligência das atribuições e otimiza de forma segura suas campanha"
-            ]
-          },
-          {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/eda2a221-879c-41f3-a7f7-032d93be50a9",
-            "title": "E-commerce",
-            "content": [
-              "Elimine a quebra de dados entre gerenciadores e Analytics",
-              "Diminua a quebra de receita atribuída entre  e-com e GA4",
-              "Melhora o carregamento do site, pois as requisições estão em API"
-            ]
-          },
-          {
-            "title": "Agências",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/1e10c48d-3fbd-4bd4-9dad-68acd913f944",
-            "content": [
-              "Confiança em dados para seus clientes. ",
-              "Diferenciação no mercado de agências, uma vez que você executa atribuições avançadas de formas simples",
-              "Aumento de LTV de seus clientes ",
-              "Equipara-se com as maiores do mercado global "
-            ]
-          }
-        ],
-        "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/1a161732-2210-46a6-a88d-59e537c0730e",
-        "backgroundImageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/279d5a63-4389-44a9-9fe1-b795438848c5"
-      }
+      "__resolveType": "site/sections/AboutUs.tsx",
+      "title": "Para quem somos?",
+      "list": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/f353f1b0-941c-4497-b737-33c79e027755",
+          "title": "Gestores de tráfego",
+          "content": [
+            "Chega de dados divergentes entre plataformas, com a Trasty.io você eleva a inteligência das atribuições e otimiza de forma segura suas campanha"
+          ]
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/eda2a221-879c-41f3-a7f7-032d93be50a9",
+          "title": "E-commerce",
+          "content": [
+            "Elimine a quebra de dados entre gerenciadores e Analytics",
+            "Diminua a quebra de receita atribuída entre  e-com e GA4",
+            "Melhora o carregamento do site, pois as requisições estão em API"
+          ]
+        },
+        {
+          "title": "Agências",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/1e10c48d-3fbd-4bd4-9dad-68acd913f944",
+          "content": [
+            "Confiança em dados para seus clientes. ",
+            "Diferenciação no mercado de agências, uma vez que você executa atribuições avançadas de formas simples",
+            "Aumento de LTV de seus clientes ",
+            "Equipara-se com as maiores do mercado global "
+          ]
+        }
+      ],
+      "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/1a161732-2210-46a6-a88d-59e537c0730e",
+      "backgroundImageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/279d5a63-4389-44a9-9fe1-b795438848c5"
     },
     {
       "__resolveType": "site/sections/Prices.tsx",
@@ -303,9 +291,12 @@
       }
     },
     {
-      "__resolveType": "site/sections/Footer.tsx",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/4943c795-023c-4c87-b485-4c0acac919ac",
-      "alt": "Logo"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Footer.tsx",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12419/4943c795-023c-4c87-b485-4c0acac919ac",
+        "alt": "Logo"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

@@ -44,7 +44,7 @@ function Prices({ title, cards }: Props) {
 
     return (
         <div id={id} class="bg-[#F5F5F5] py-6 lg:pb-20 lg:pt-[72px]">
-            <div id="prices" class="flex flex-col gap-2 mb-8 lg:mb-16">
+            <div class="flex flex-col gap-2 mb-8 lg:mb-16">
                 <span class="font-bold text-secondary text-base lg:text-2xl text-center">{title?.title}</span>
                 <span class="text-primary text-sm lg:text-base text-center">{title?.subtitle}</span>
             </div>
