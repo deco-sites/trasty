@@ -11,13 +11,14 @@ export default function Modal({ isOpen, onClose, cardTitle }: ModalProps) {
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
     const [site, setSite] = useState('');
+    const [role, setRole] = useState('');  // Novo estado para o select
     const [showMessageModal, setShowMessageModal] = useState(false);
     const [message, setMessage] = useState('');
 
     const sendForm = (e: { preventDefault: () => void; }) => {
         e.preventDefault();
 
-        if (name === '' || email === '' || phone === '' || site === '') {
+        if (name === '' || email === '' || phone === '' || site === '' || role === '') {
             setMessage('Erro: Preencha todos os campos');
             setShowMessageModal(true);
             autoCloseModal();
@@ -29,7 +30,8 @@ export default function Modal({ isOpen, onClose, cardTitle }: ModalProps) {
             from_name: name,
             email: email,
             phone: phone,
-            site: site
+            site: site,
+            role: role
         };
 
 
@@ -40,6 +42,7 @@ export default function Modal({ isOpen, onClose, cardTitle }: ModalProps) {
                 setEmail('');
                 setPhone('');
                 setSite('');
+                setRole('');
                 setMessage('Enviado com sucesso!');
                 setShowMessageModal(true);
                 autoCloseModal();
@@ -51,6 +54,7 @@ export default function Modal({ isOpen, onClose, cardTitle }: ModalProps) {
                     'email': email,
                     'phone': phone,
                     'site': site,
+                    'role': role,
                     'event': 'EnvioForm'
                 });
 
@@ -79,6 +83,7 @@ export default function Modal({ isOpen, onClose, cardTitle }: ModalProps) {
             setEmail('');
             setPhone('');
             setSite('');
+            setRole(''); 
             setMessage('');
             setShowMessageModal(false);
         }
@@ -130,6 +135,21 @@ export default function Modal({ isOpen, onClose, cardTitle }: ModalProps) {
                             onChange={(e) => setSite((e.target as HTMLInputElement).value)}
                             value={site}
                         />
+                    </label>
+                    <label>
+                        Função:
+                        <select
+                            class="input input-bordered w-full"
+                            required
+                            onChange={(e) => setRole((e.target as HTMLSelectElement).value)}
+                            value={role}
+                        >
+                            <option value="" disabled>Selecione uma função</option>
+                            <option value="GestorTrafego">Gestor de Tráfego</option>
+                            <option value="EspecialistaTracking">Especialista de Tracking</option>
+                            <option value="Ecommerce">E-commerce</option>
+                            <option value="Agencias">Agências</option>
+                        </select>
                     </label>
                     <div class="flex justify-end gap-4">
                         <button type="button" class="btn bg-gray-500" onClick={onClose}>Cancelar</button>
