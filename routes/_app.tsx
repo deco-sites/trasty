@@ -130,6 +130,35 @@ export default defineApp(async (_req, ctx) => {
 
         {/* Web Manifest */}
         <link rel="manifest" href={asset("/site.webmanifest")} />
+        <script type="text/javascript" dangerouslySetInnerHTML={{
+          __html: `
+                  var _ss = _ss || [];
+                  _ss.push(['_setDomain', 'https://koi-3SHYFJ5C44.marketingautomation.services/net']);
+                  _ss.push(['_setAccount', 'KOI-1FZ71Z4X28ASSO']);
+                  _ss.push(['_trackPageView']);
+                  (function() {
+                      var ss = document.createElement('script');
+                      ss.type = 'text/javascript'; ss.async = true;
+                      ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'koi-3SHYFJ5C44.marketingautomation.services/client/ss.js?ver=2.4.0';
+                      var scr = document.getElementsByTagName('script')[0];
+                      scr.parentNode.insertBefore(ss, scr);
+                  })();
+                  if ("onhashchange" in window) {
+                      window.onhashchange = function () {
+                          _ss.push(['_trackPageView']);
+                      }
+                  } else {
+                      var prevHash = window.location.hash;
+                      window.setInterval(function () {
+                          if (window.location.hash != prevHash) {
+                              prevHash = window.location.hash;
+                              _ss.push(['_trackPageView']);
+                          }
+                      }, 100);
+                  }
+                  `
+        }}>
+        </script>
       </Head>
 
       {/* Rest of Preact tree */}
